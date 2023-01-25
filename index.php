@@ -14,7 +14,12 @@ $result = mysqli_query($mysqli, "SELECT * FROM users ORDER BY id DESC"); // usin
 
 <body>
 <a href="add.html">Add New Data</a><br/><br/>
-
+<?php
+echo 'Syntax with DOLLAR. My username is ' .$_ENV["PATH"] . '!';
+	// Example use of getenv()
+	echo 'Syntax with getenv getenv('PATH').'
+	
+?>
 	<table width='80%' border=0>
 
 	<tr bgcolor='#CCCCCC'>
