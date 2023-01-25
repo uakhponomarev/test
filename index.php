@@ -23,5 +23,9 @@ $conn = sqlsrv_connect($serverName, $connectionInfo);
 		<td>Update</td>
 	</tr>
 	</table>
+<?php
+    echo '<h1><center>FINAL TASK</h1></center>';
+    echo '<h2><center>Database has connected successfully in region:</h2></center> ' . getenv('REGION');
+?>
 </body>
 </html>
